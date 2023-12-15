@@ -1,0 +1,39 @@
+.about__page-section {
+	direction: rtl;
+}
+/* Phone numbers styles */
+.contact-us .phone {
+	margin-bottom: 14px;
+	text-align: center;
+	direction: ltr;
+}
+.contact-us .phone i {
+	font-size: 1.3rem;
+	color: #000d6b;
+	margin-bottom: 10px;
+}
+.contact-us .phone a {
+	font-size: 16px;
+	color: #afafb6;
+	text-decoration: none;
+	&:hover {
+		color: #f9a826;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.about__page-content {
+		margin-top: 3rem;
+	}
+	.about__page-content h2 {
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.about__page-content {
+		margin-top: 0;
+	}
+	.about__page-img {
+		display: none;
+	}
+}

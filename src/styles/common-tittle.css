@@ -1,0 +1,22 @@
+.speacial-heading {
+	color: #ebeced;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: -3px;
+	margin: 0;
+}
+.speacial-heading + p {
+	text-align: center;
+	font-size: 20px;
+	margin: -20px 0 0;
+	color: #797979;
+}
+@media (max-width: 767px) {
+	.speacial-heading {
+		font-size: 60px;
+	}
+	.speacial-heading + p {
+		margin-top: -20px;
+	}
+}

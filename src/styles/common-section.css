@@ -1,0 +1,8 @@
+.common__section {
+	background: linear-gradient(rgb(0, 13, 107, 0.3), rgb(0, 13, 107, 0.4)),
+		url("../assets//all-images/commen-section.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+}

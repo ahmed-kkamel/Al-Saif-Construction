@@ -1,0 +1,26 @@
+.work_section {
+	direction: rtl;
+}
+.work_section img {
+	max-height: 700px;
+}
+.work_section .work__info h2 {
+	font-size: 2rem;
+	font-weight: 500 !important;
+}
+.work_section .work__info p {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+	.work_section .work__info h2 {
+		margin-top: 2rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.work_section .work__info h2 {
+		font-size: 1.5rem !important;
+	}
+}

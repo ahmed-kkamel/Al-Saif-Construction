@@ -1,0 +1,55 @@
+.work__item {
+	border: 1px solid #7c8a9736;
+	padding: 20px;
+	border-radius: 5px;
+	direction: rtl;
+}
+.work__item img {
+	max-height: 375px;
+	/* width: 360px !important;  Because of rffect:"blur"; on lazy loading */
+}
+.work__item-content h4:hover {
+	color: #f9a826;
+}
+
+.read__more {
+	color: #f9a826;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 1rem;
+}
+@media only screen and (max-width: 1200px) {
+	.work__item img {
+		/* width: 250px !important; */
+		max-height: 250px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.work__item img {
+		max-height: 300px;
+		/* width: 300px !important; */
+	}
+	.work__item h4 {
+		font-size: 1.1rem;
+		margin-bottom: 0;
+	}
+
+	.work__item p {
+		font-size: 1rem;
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.work__item img {
+		max-height: 215px;
+		/* width: 210px !important; */
+	}
+	.work__item h4 {
+		font-size: 1rem;
+	}
+
+	.work__item p {
+		font-size: 0.9rem;
+	}
+}

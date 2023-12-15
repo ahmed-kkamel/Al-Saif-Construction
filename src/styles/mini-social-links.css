@@ -1,0 +1,24 @@
+/* social links styles */
+.social-link-icon {
+	color: #000d6b;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.social-link-icon i {
+	font-size: 2rem;
+	transition: color 0.3s;
+}
+
+.social-link-icon:hover i {
+	color: #f9a826;
+}
+
+@media only screen and (max-width: 768px) {
+	.social-link-icon {
+		padding: 2rem 0;
+	}
+	.social-link-icon i {
+		font-size: 1.5rem;
+	}
+}

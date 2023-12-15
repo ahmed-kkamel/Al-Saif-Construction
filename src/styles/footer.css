@@ -1,0 +1,104 @@
+.footer {
+	background: #000d6b;
+	padding-top: 50px;
+	padding-bottom: 15px;
+	direction: rtl;
+}
+
+.footer__logo a {
+	text-decoration: none;
+}
+.footer__logo span {
+	color: #fff;
+	font-weight: 500;
+}
+
+.footer__logo-content {
+	color: rgba(255, 255, 255, 0.715);
+	margin-top: 15px;
+	line-height: 30px;
+}
+
+.quick__link {
+	border: none !important;
+	background: transparent !important;
+}
+
+.quick__link a {
+	color: rgba(255, 255, 255, 0.715);
+	text-decoration: none;
+	font-weight: 300;
+	transition: 0.3s;
+}
+
+.quick__link a:hover {
+	color: #f9a826;
+}
+
+.footer__link-title {
+	color: #fff;
+}
+
+.office__info {
+	justify-content: center;
+	color: rgba(255, 255, 255, 0.715);
+	font-weight: 300;
+}
+/* Phone numbers styles */
+.phone {
+	margin-bottom: 14px;
+	text-align: center;
+	direction: ltr;
+}
+.phone i {
+	font-size: 1.3rem;
+	color: rgba(255, 255, 255, 0.715);
+	margin-bottom: 10px;
+}
+.phone a {
+	font-size: 16px;
+	color: #afafb6;
+	text-decoration: none;
+	&:hover {
+		color: #f9a826;
+	}
+}
+/* icons styels */
+.social__link-icon {
+	color: rgba(255, 255, 255, 0.715);
+	text-decoration: none;
+}
+
+.social__link-icon i {
+	font-size: 2rem;
+	transition: color 0.3s;
+}
+
+.social__link-icon:hover i {
+	color: #f9a826;
+}
+.footer__bottom {
+	border-top: 1px solid #7c8a972f;
+	direction: rtl;
+}
+
+@media only screen and (max-width: 768px) {
+	.footer__logo-content {
+		font-size: 0.8rem;
+	}
+
+	.quick__link,
+	.office__info {
+		font-size: 0.8rem;
+		line-height: 1.5rem;
+	}
+
+	.footer__link-title {
+		font-size: 1rem;
+		margin-top: 15px;
+	}
+
+	.footer__bottom p {
+		font-size: 0.7rem;
+	}
+}
