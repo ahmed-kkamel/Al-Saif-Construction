@@ -98,6 +98,9 @@ section {
 	.section__subtitle {
 		font-size: 2rem;
 	}
+	* {
+		overflow-x: hidden;
+	}
 }
 @media only screen and (max-width: 574px) {
 	* {

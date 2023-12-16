@@ -1,29 +1,7 @@
 import React from "react";
-import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
-const quickLinks = [
-	{
-		path: "/home",
-		display: "الرئيسيه",
-	},
-	{
-		path: "/about",
-		display: "عن الشركة",
-	},
-	{
-		path: "/contact",
-		display: "تواصل معنا",
-	},
-	{
-		path: "/blogs",
-		display: "الخدمات",
-	},
-	{
-		path: "/work",
-		display: "أعمالنا",
-	},
-];
 
 const Footer = ({ socialLinks }) => {
 	const date = new Date();
@@ -32,7 +10,7 @@ const Footer = ({ socialLinks }) => {
 		<footer className="footer">
 			<Container>
 				<Row>
-					<Col lg="4" md="6" sm="12 text-center">
+					<Col lg="4" md="4" sm="12 text-center">
 						<div className="logo footer__logo ">
 							<h1>
 								<Link
@@ -52,20 +30,7 @@ const Footer = ({ socialLinks }) => {
 						</p>
 					</Col>
 
-					<Col lg="1" md="6 d-flex justify-content-center" sm="6">
-						<div className="mb-3">
-							<h5 className="footer__link-title mb-1">صفحات</h5>
-							<ListGroup>
-								{quickLinks.map((item, index) => (
-									<ListGroupItem key={index} className="p-0 mt-3 quick__link">
-										<Link to={item.path}>{item.display}</Link>
-									</ListGroupItem>
-								))}
-							</ListGroup>
-						</div>
-					</Col>
-
-					<Col lg="3" md="6" sm="12 d-flex justify-content-center">
+					<Col lg="4" md="4" sm="12 d-flex justify-content-center">
 						<div className="mb-2">
 							<h5 className="footer__link-title text-center mb-3">أهدافنا</h5>
 							<p className="office__info">
@@ -82,9 +47,9 @@ const Footer = ({ socialLinks }) => {
 							</p>
 						</div>
 					</Col>
-					<Col lg="4" md="6 text-center" sm="6 text-center">
+					<Col lg="4" md="4 text-center" sm="12 d-flex justify-content-center">
 						<div className="mb-3">
-							<h5 className="footer__link-title mb-3">التفاصيل</h5>
+							<h5 className="footer__link-title mb-3 text-center">التفاصيل</h5>
 							<p className="office__info">
 								<i className="ri-map-pin-line"></i> حفر الباطن العزيزيه اشارة
 								الحويلا خلف فندق بنان وبجانب شعبيات اليمن
