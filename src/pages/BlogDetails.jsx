@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import "../styles/blog-details.css";
@@ -15,7 +15,10 @@ const BlogDetails = () => {
 	const blog = blogData.find((blog) => blog.title === slug);
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, [blog]);
+	}, []);
+
+	const myRef = useRef(null);
+	const excuteScroll = () => myRef.current.scrollIntoView();
 
 	return (
 		<Helmet title={blog.title}>
@@ -35,7 +38,13 @@ const BlogDetails = () => {
 											className="w-25 rounded-2"
 										/>
 										<h6 className="d-flex align-items-center justify-content-end">
-											<Link to={`/blogs/${item.title}`}>{item.title}</Link>
+											<Link
+												to={`/blogs/${item.title}`}
+												ref={myRef}
+												onClick={excuteScroll}
+											>
+												{item.title}
+											</Link>
 										</h6>
 									</div>
 								</div>

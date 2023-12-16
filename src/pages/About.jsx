@@ -8,6 +8,7 @@ import aboutImg from "../assets/all-images/fancy designs/631f1ef11f992f5ad82e963
 import MiniSocialLinks from "../components/UI/MiniSocialLinks";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import OurMembers from "../components/UI/OurMembers";
 
 const About = ({ socialLinks }) => {
 	useEffect(() => {
@@ -83,6 +84,17 @@ const About = ({ socialLinks }) => {
 								<MiniSocialLinks socialLinks={socialLinks} />
 							</div>
 						</Col>
+					</Row>
+				</Container>
+			</section>
+			<section>
+				<Container>
+					<Row>
+						<Col lg="12" className="mb-5 text-center">
+							<h6 className="section__subtitle">القائمون علي العمل</h6>
+							<h2 className="section__title">أعضاء المكتب</h2>
+						</Col>
+						<OurMembers />
 					</Row>
 				</Container>
 			</section>
