@@ -12,14 +12,14 @@ const Footer = ({ socialLinks }) => {
 				<Row>
 					<Col lg="4" md="4" sm="12 text-center">
 						<div className="logo footer__logo ">
-							<h1>
+							<h5 className="display-6">
 								<Link
 									to="/"
 									className=" d-flex align-items-center justify-content-center gap-2"
 								>
 									<span className="text-center">السيف للمعمار</span>
 								</Link>
-							</h1>
+							</h5>
 						</div>
 						<p className="footer__logo-content">
 							تتميز شركة السيف للمعمار بتقديم خدمات تشطيبات فاخرة للمنازل،
