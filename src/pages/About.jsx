@@ -67,7 +67,7 @@ const About = ({ socialLinks }) => {
 									رؤيتكم في تصميم الفضاءات.
 								</p>
 
-								<div className="contact-us d-flex align-items-center justify-content-center gap-3 mt-4 mb-1 text-center">
+								<div className="contact-us d-flex align-items-center justify-content-center gap-3 mt-2 mb-1 text-center">
 									<div>
 										<h6 className="section__subtitle">تحتاج لاستشارة ؟</h6>
 										<div className="phone details">

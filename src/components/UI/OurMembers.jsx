@@ -9,7 +9,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 const OUR__MEMBERS = [
 	{
 		name: "م/ ناصر صلاح",
-		experience: "5 years of experience",
+		// experience: "5 years of experience",
 		fbUrl:
 			"https://www.facebook.com/profile.php?id=100004117292971&mibextid=ZbWKwL",
 		instUrl:
@@ -22,7 +22,7 @@ const OUR__MEMBERS = [
 
 	{
 		name: "م/ سيف ناصر صلاح",
-		experience: "5 years of experience",
+		// experience: "5 years of experience",
 		fbUrl: "#",
 		instUrl: "#",
 		twitUrl: "#",

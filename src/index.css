@@ -1,13 +1,18 @@
 /* ======== google fonts ======== */
 /* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@100;200;400;600;700;800&family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@100;200;400;600;700;800&family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;600;700;800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Noto+Sans+Arabic:wght@100;200;400;600;700;800&family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;600;700;800&display=swap");
 
 /* ======= base style ====== */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Source Sans Pro", sans-serif;
+	/* font-family: "Source Sans Pro", sans-serif; */
+	font-family: "Cairo", sans-serif;
+	font-family: "Noto Sans Arabic", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	font-family: "Rubik", sans-serif;
 }
 
 /* ========= pre-define css ========= */
